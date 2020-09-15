@@ -1,0 +1,92 @@
+September 15 notes. 
+
+First you downloaded python. 
+
+Then you opened python (IDLE)
+
+Python is simple in its language. 
+
+Use as a calculator. 
+
+Operators (math)
+	+ is add 
+	- is subtract 
+	* is multiply
+	/ is divide 
+	** is exponent
+	square root is **(1/2)
+
+examples: 
+>>> 4 + 4
+8
+>>> 6007*4042
+24280294
+
+Please calculate the area of a sphere with radius 5. 
+
+
+numbers can be integers or 'floats'
+int - no decimal (example 2)
+float - have a decimal (example 4.2)
+
+>>> type(4.0)
+<class 'float'>
+
+Errors sometimes happen if you use the wrong data type. 
+
+Can convert between types, as follows: 
+>>> int(4.0)
+4
+
+>>> float(4)
+4.0
+
+STRINGS 
+Strings are just text. 
+They require quotations.
+>>> 'hey owen!'
+'hey owen!'
+
+
+You can also add strings, this is called concatenation. 
+
+
+
+
+VARIABLES 
+-can be numbers
+>>> x=4
+>>> x
+4
+This allows you to 'store' information
+
+You can also 'mess' with that information! 
+>>> x * 1000
+4000
+
+variables can be updated:
+x = 4
+x = 10000
+now x is equal to 1000, not 4. 
+
+print helps us see what's going on. 
+print('what you want to print')
+
+you can change integers into strings! 
+str(x) (where x is a integer)
+
+QUESTIONS:
+Assume that we execute the following assignment statements (variables).
+>>>width = 17 
+>>>height = 12.0
+>>>delimiter='.'
+
+for each of the following, write the resulting expression and the type of value given. 
+1. width/2
+2. width/2.0
+3. height/3
+4. 1 + 2 * 5 
+5. delimiter * 5
+
+Suppose the cover price of a book is $24.95 but bookstores get a 40% discount. Shipping costs $3 for the first copy and 75 cents for each additional copy. What is the total wholesale cost for 60 copies. 
+
