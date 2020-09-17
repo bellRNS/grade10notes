@@ -1,0 +1,115 @@
+
+Steps I took...
+
+First I read the section about ipython and its installation. 
+
+It took me a while to realize that it was installable through pip. (angry face). 
+
+I read a bit about the magic commands (for help!) and got used to the indexing of in[] out[]. I liked how it allows you to run some terminal commands within it (change directory mostly)
+
+I think I will skip a bit here because it's likely that the text will reveal something funky if I need to know it further (niche features are for later!). 
+
+I moved into numpy. I don't think I will want to create arrays from scratch. This means I will most likely need to find some importing stuff. 
+
+I found the first thing I liked to know, which was accessing array rows and columns (numpy chapter). I ran this code to make sure. 
+
+
+*****
+In [17]: x2 = np.random.randint(10, size=(3,4)) #two-dimensional array (4 column
+    ...: s, 3 rows)
+
+In [18]: x2
+Out[18]: 
+array([[2, 2, 0, 3],
+       [0, 4, 6, 0],
+       [4, 4, 3, 0]])
+In [19]: print(x2[:,0])
+[2 0 4]
+*****
+
+
+This means that I can get columns by array[;,column number] and rows by array[row number, ;]
+
+I also think being able to sandwich arrays together is important. I decided to learn concatenating arrays. 
+
+*****
+In [21]: x3 = np.random.randint(10, size=(3,4))
+
+In [22]: np.vstack([x2,x3])
+Out[22]: 
+array([[2, 2, 0, 3],
+       [0, 4, 6, 0],
+       [4, 4, 3, 0],
+       [9, 2, 9, 7],
+       [7, 1, 2, 0],
+       [1, 0, 6, 7]])
+******
+
+Overall, numpy for my purpose right now was to see if that's where the author was importing data. I like numpy for its easy array creation, and ability to stack data as seen. I skipped the computation on numpy arrays, but I know that the Ufuncs exist to help me later incase I need to transform a dataset. (same with aggreagations and broadcasting). 
+
+I was going to read structured data, but it suggested right in there that this was better suited for chapter three. 
+
+Pandas is what I really want to learn, because it's dealing with dataframes that look exactly like my Kaggle tasks. 
+
+*****
+In [25]: pandas.__version__
+Out[25]: '1.1.0'
+******
+
+we import pandas as pd, like numpy to np
+
+a SERIES object is indexed data. it attaches to a list or array. 
+
+******
+In [27]: data = pd.Series([0,1,2,3,5,6,7,8])
+
+In [28]: data
+Out[28]: 
+0    0
+1    1
+2    2
+3    3
+4    5
+5    6
+6    7
+7    8
+dtype: int64
+******
+
+pd.DataFrame is how to turn dictionaries 
+
+df.index gives access to index labels (row names)
+df.columns gives access to column labels 
+
+********
+In [34]: data = [{'a': i, 'b': 2 * i}
+    ...:         for i in range(3)]
+    ...: pd.DataFrame(data)
+Out[34]: 
+   a  b
+0  0  0
+1  1  2
+2  2  4
+********
+
+I think this whole page will be useful. 
+https://jakevdp.github.io/PythonDataScienceHandbook/03.03-operations-in-pandas.html
+I will need to revisit ufuncs in order to use these well. 
+
+I got super sick of trying to find ways to load csv files so I just googled it. 
+go figure... 
+
+******* 
+data = pd.read_csv("filename.csv")
+#to view the first 5 lines of loaded data...
+data.head()
+*******
+
+Then I went to kaggle for a clean data set to play with. (filter by csv)
+Bingo: 
+https://www.kaggle.com/isaienkov/us-police-shootings-visualization-and-analysis
+
+This terrible file is both topical and a good candidate for our course. 
+
+
+
