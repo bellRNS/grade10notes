@@ -21,9 +21,4 @@ Make a copy of square and change the name to polygon. Add another parameter name
 so it draws an n-sided regular polygon. Hint: The exterior angles of an n-sided regular polygon are 360/n 
 degrees.
 
-4.
-Write a function called circle that takes a turtle, t, and radius, r, as parameters and that draws 
-an approximate circle by calling polygon with an appropriate length and number of sides. Test your 
-function with a range of values of r.
-Hint: figure out the circumference of the circle and make sure that length * n = circumference.
-
+4. Make a function that creates a circle using 'a bunch' of sides. 

@@ -1,0 +1,31 @@
+**** TURTLES ASSIGNMENT ****
+
+We have used the turtle package to draw some shapes and letters. 
+
+We have used for loops to help create these shapes efficiently. 
+
+Your assignment will be graded based on levels. 
+
+Level 1 
+Create a function called square() that draws a simple square using turtles.
+
+Level 2 
+Create function called multi_squares(n) that takes a parameter 'n' that allows you to draw multiple squares in a row. 'n' will be the number of squares.
+
+Level 3 
+Create a function called any_shape(s) that draws a polygon where 's' is the number of sides.
+
+Level 4 
+Create a function for 10 letters of the alphabet. Example, letter_w() draws a W. 
+
+Level 5 
+Create a function each letter of the alphabet. 
+
+Level 6 
+Create a function that takes a string parameter that draws out someones name. Example, draw_name('jeff') draws out J E F F on turtle world.
+
+Level 7 
+Add colour to your answer from level 6. Each time the turtle's pen is down, it should be a different color! 
+
+
+**** DUE TBD ****
