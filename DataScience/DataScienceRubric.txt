@@ -1,0 +1,35 @@
+Introduction to the data set
+
+No introduction given - 4 
+Simple description of what the data was about - 5
+Description of data, including some context - 6
+Description of data, context, and general descriptive statistics - 7
+
+Answers to posed questions 
+
+Question was not answered, but graph was given - 4
+Question was answered shallow - 5
+Question was answered with good consideration of the data and its limitations - 6
+Question was answered with consideration, limitations, and added real-world context - 7
+
+Written Report 
+
+Messy and unappealing - 4 
+Clear communication, is organized into sections and has a brief introduction - 5
+Clear communication, sections, introduction, and answers are complete - 6
+Clear, sections, introduction, complete, and added real-world context - 7 
+
+Presentation 
+
+Way too short - 4
+Good posture, notes used, slides only slightly busy - 5 
+Great posture, notes used, slides clean - 6 
+Great posture, no notes, clean professional slides, excellent answers to questions - 7 
+
+Visual Representation of Data 
+
+Visuals do not answer questions - 4 
+Visuals are reasonably easy to read, good choices of graph used - 5 
+Visuals are clear, concise, and make the data more recognizable - 6 
+Visuals show some custom styling, axes and ticks are perfectly used, legends are clear - 7 
+
