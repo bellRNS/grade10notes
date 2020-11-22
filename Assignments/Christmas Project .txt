@@ -1,0 +1,60 @@
+**Children's Christmas Toy Project**
+
+Deadlines to be posted on RNS Portal. 
+You will have small components due in checkpoint style. 
+
+
+OUTLINE 
+-You must design a children's christmas toy. 
+-You must identify what age category the game is for. 
+-You must integrate the raspberry pi into your design. 
+-You must include physical components such as LED or buttons. 
+-You will be allowed the basic breakout kit & one DC motor. 
+-You will have access to the 3d printer (.STL files only!).
+-You will choose to include a monitor or keep the toy 'headless'
+-Consider this as a real-life GPIO project. 
+
+
+DESIGN 
+-You will be scored on the 'housing' of your pi and components. 
+
+	7 - Perfect 3D printed design
+	6 - Very appealing, smartly designed (3d printed or not)
+	5 - Clean design, looks good 
+	4 - Functional design, looks less than good 
+	3 - Only kinda falls apart 
+	2 - Design impedes its function 
+	1 - Simply put, is awful! 
+
+CODE & OPERATION
+-You will be scored on the code used in your project. 
+	
+	7 - A 6 + Code incorporates a DC motor (with good reason)
+	6 - A 5 + The program starts as soon as the pi boots.
+	5 - You have functions, code is well organized and readable, uses if statements.
+	4 - You have functions, code is legible, uses if statements, works as described.
+	3 - Your code runs, no functions, messy code 
+	2 - Your code does not run, no functions, really messy code
+	1 - No code?
+
+
+DOCUMENTATION 
+-You must create a set of instructions that anyone can follow to completion. 
+-All code must be available, as well as any downloads or pieces necessary for completion.
+-Pictures will be very helpful to your score! 
+-Suggestion: put everything in a common folder every time you do something! 
+
+	7 - Perfect documentation on Github (including well created Markdown)
+	6 - All Documentation on Github (no markdown used)
+	5 - Most documentation on Github, few things missing 
+	4 - All Documentation on a USB drive or Google Drive 
+	3 - Most documentation on a USB drive or Google Drive 
+	2 - Lots of missing documentation 
+	1 - Nothing submitted!
+
+
+SCORE 
+Marks 	___
+Bonus   ___
+TOTAL 	___/21
+SCORE 	___/7
