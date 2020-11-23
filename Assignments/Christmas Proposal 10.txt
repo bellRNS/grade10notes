@@ -14,7 +14,7 @@ class and there is no reason to not like your partner. 
 Step 3
 
 Identify WHO your Christmas toy is for. 
-Is it for young kids? Kids with extra developmental needs? Older kids? Sporty kids? 
+Is it for young kids? Kids with specific needs? Older kids (adults included!)? 
 Use the first page of the link here 
 (https://github.com/bellRNS/grade10notes/blob/master/Design%20Principles/Design%20Deck.pdf)
 to 'empathize' with the toy user. Consider what the person you are designing for will want. 
@@ -40,7 +40,7 @@ On a blank piece of paper divide your page into 8 equal squares (much like the l
 Set a timer on your phone/device for 40 seconds. 
 You have 40 seconds to come up with a unique solution to your 'How Might We..' question. 
 After 40 seconds you MUST move to the next square. 
-This will happen 8 times. It will feel crappy after 4 squares, but your final two will 
+This will happen 8 times. It will feel tough after 4 squares, but your final two will 
 most likely be your best ones, so keep pushing! 
 
 Step 7
@@ -53,7 +53,7 @@ Step 8
 Submit a project proposal for the Christmas Project. It will include: 
 -Your user definition from Step 3
 -Your 'how might we' sentence from Step 5 
--Your best idea from the group 
+-Your best idea(s) from the group 
 -How you plan on incorporating your skills from this class 
 -What physical components you will need 
 -A project class by class timeline of what you will complete. 
