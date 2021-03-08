@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Using the Console</title>
+    </head>
+
+    <div>
+        <h1>Javascript Playground</h1>
+    </div>
+
+    <script>
+        function createArray(){
+            var array = []
+            for(var i = 0; i < 10; i++){
+                array.push(i);
+            }
+            console.log(array);
+            return array
+        }
+
+        var newArray = createArray()
+
+        function deleteEndPosition(array){
+            array.pop();
+            console.log(array)
+        }
+
+        function bigCut(array, start, deleteLength){
+            array.splice(start,deleteLength);
+            console.log(array);
+        }
+        
+    </script>
+
+
+
+
+</html>
