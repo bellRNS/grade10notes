@@ -4,10 +4,17 @@
     </head>
 
     <div>
-        <h1>Javascript Playground</h1>
+        <h1 id = 'test'>Javascript Playground</h1>
     </div>
 
+    <ul id = 'list'> 
+        <p id = 'trigger'>List Items Go here</p>
+    </ul>
+
+    <h2>Clear</h2>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script>
+
         var todos = []
 
         function addTodo(todoText){
@@ -25,11 +32,23 @@
         function displayTodos(){
             console.log(todos)
         }
-    
+
+        function showTodos(){
+            for (i = 0; i < todos.length; i++){
+                var newLi = $('<li></li>').text(todos[i])
+                $('#list').append(newLi)
+            }
+        }
+
+        function hideList(){
+            $('li').hide()
+        }
         
+        //notes for Jquery "Selectors" found here https://www.w3schools.com/jquery/jquery_ref_selectors.asp
+        $('#test').on('click', displayTodos)
+        $('#trigger').on('click', showTodos)
+        $('h2').on('click',hideList)
+
+
     </script>
-
-
-
-
 </html>
