@@ -1,0 +1,49 @@
+Web Design: Intermediate/Advanced Project Outline 
+
++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Assigned: March 12, 2021
+Due: April 1, 2021
+Duration: 8 Class periods
+
++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Task: 
+    -You will create a working Github website, on a topic of your choosing. 
+
+Requirements: 
+    -You must use HTML (no free website editors)
+    -You must incorporate JavaScript
+    -You must incorporate JQuery 
+    -You must incorporate CSS components
+    -You may source from web tutorials, but absolutely no 'borrow/stealing' from
+        non-educational websites.     
+
++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ScoreSheet:
+    Design 
+        - 5 - Elegantly designed Single Page Website with beautiful transitions (professional)
+        - 4 - Scales based on browser window (i.e. interface changes mobile vs desktop)
+        - 3 - Rich CSS styling with custom classes and is visually appealing.
+        - 2 - CSS is used to give color and character to the page (novice)
+        - 1 - No CSS was attempted 
+
+    Code/Function 
+        - 5 - Meaningful DOM manipulation to create an educational or helpful experience
+        - 4 - DOM manipulations through the use of user input 
+        - 3 - Dynamic HTML by use of DOM manipulation (adding classes, objects, components)
+        - 2 - At least one event managed by JQuery
+        - 1 - No DOM manipulation attempted. 
+
+    Content 
+        - 3 - Content is full, self-explanatory, and is well sourced (if required)
+        - 2 - Content is good, missing some important bits, has some sources (if required)
+        - 1 - Content is alright, lots of missing stuff, no sources (if required)
+
+    Bonus 
+        - 1 - Follows proper file structure for basic website (Folder for JS, CSS, and index.html)
+
+Total /14
+Score /7 
+
